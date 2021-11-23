@@ -44,3 +44,16 @@ def board_state(widht=11, height=11):
 
 for i in board_state(20, 30):
     print(i)
+
+#* Create a method to render the board.
+def render(board_state):
+    '''Print the board with characters.'''
+    for cell_list in board_state:
+        for cell in cell_list:
+            if cell == 0:
+                print(" ", end=" ")
+            else:
+                print("#", end=" ")
+        print("|")
+
+#* Create a method to return the next board state.
