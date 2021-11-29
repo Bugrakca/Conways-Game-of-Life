@@ -1,4 +1,4 @@
-from life_cycle import next_board_state
+from game_of_life import next_board_state
 
 # TODO: there's a lot of repeated code here. Can you move some of into reusable
 # functions to make it shorter and neater?
