@@ -1,4 +1,12 @@
 import random, time
+# TODO: Change rules
+# TODO: Research and implement Langton’s Ant
+# TODO: Research and implement Brian’s Brain
+# TODO: Research and implement Day and Night
+# TODO: Make a command line tool that allows the user to choose which of your cellular automa they would like to run
+# TODO: Implement the terminal UI using curses
+# TODO: Make your board rainbow colored
+# TODO: There’s an incredible amount of research available on Cellular Automata. Get Googling and come up with your own extensions
 
 def dead_state(width, height):
     '''Dead state of the board with all zeros'''
